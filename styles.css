@@ -140,6 +140,28 @@ Styling the dresses part */
 
 .input-email {
   border-style: none;
+  padding: 1vw;
+  border-radius: .5vw;
+}
+
+.subscribe-newsletter {
+  padding: .8vw;
+  margin-top: 1vw;
+  outline: none;
+  border-style: none;
+  border-radius: .8vw;
+  transition: all .5s;
+}
+
+.subscribe-newsletter:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 10px 20px rgba(0,0,0,.3);
+  cursor: pointer;
+}
+
+
+.subscribe-newsletter:focus {
+  outline: none;
 }
 
 .fb-text {
